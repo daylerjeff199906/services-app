@@ -1,3 +1,9 @@
+A web application designed to connect people who need immediate help with those offering quick services or gigs. Whether it's a last-minute job, an urgent task, or just a quick "cachuelo," this platform allows users to find or offer services in real time.
+
+🔥 Focused on speed, simplicity, and local connections.
+🛠️ Built with Next.js, TypeScript, and Supabase.
+🌍 Designed to scale into a general-purpose on-demand service platform.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
