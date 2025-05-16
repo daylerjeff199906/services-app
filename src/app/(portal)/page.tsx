@@ -8,7 +8,6 @@ import {
   Shield,
   Star
 } from 'lucide-react'
-import Footer from '@/components/app/footer'
 import { HowItWorks } from '@/components/app/how-it-works'
 import { CategoryCard } from '@/components/app/category-card'
 import { TestimonialCard } from '@/components/app/testimonial-card'
@@ -204,8 +203,6 @@ export default function HomePage() {
           </div>
         </section>
       </main>
-
-      <Footer />
     </>
   )
 }
