@@ -1,11 +1,12 @@
-"use client"
+'use client'
 
-import { useState, useEffect } from "react"
+import { useState, useEffect } from 'react'
 
 interface GeolocationState {
   latitude: number | null
   longitude: number | null
   city: string | null
+  country: string | null
   error: string | null
   loading: boolean
 }
@@ -15,16 +16,17 @@ export function useGeolocation() {
     latitude: null,
     longitude: null,
     city: null,
+    country: null,
     error: null,
-    loading: true,
+    loading: true
   })
 
   useEffect(() => {
     if (!navigator.geolocation) {
       setState((prev) => ({
         ...prev,
-        error: "La geolocalización no está soportada por tu navegador",
-        loading: false,
+        error: 'La geolocalización no está soportada por tu navegador',
+        loading: false
       }))
       return
     }
@@ -36,28 +38,36 @@ export function useGeolocation() {
 
           // Intentar obtener el nombre de la ciudad usando la API de geocodificación inversa
           const response = await fetch(
-            `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}&zoom=10`,
+            `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}&zoom=10`
           )
           const data = await response.json()
 
           // Extraer el nombre de la ciudad de la respuesta
           const city =
-            data.address?.city || data.address?.town || data.address?.village || data.address?.municipality || null
+            data.address?.city ||
+            data.address?.town ||
+            data.address?.village ||
+            data.address?.municipality ||
+            data.address?.state ||
+            data.address?.country ||
+            data.address?.suburb ||
+            null
 
           setState({
             latitude,
             longitude,
             city,
             error: null,
-            loading: false,
+            country: data.address?.country || null,
+            loading: false
           })
-        } catch (error) {
+        } catch {
           setState((prev) => ({
             ...prev,
             latitude: position.coords.latitude,
             longitude: position.coords.longitude,
-            error: "Error al obtener el nombre de la ciudad",
-            loading: false,
+            error: 'Error al obtener el nombre de la ciudad',
+            loading: false
           }))
         }
       },
@@ -65,9 +75,9 @@ export function useGeolocation() {
         setState((prev) => ({
           ...prev,
           error: `Error al obtener la ubicación: ${error.message}`,
-          loading: false,
+          loading: false
         }))
-      },
+      }
     )
   }, [])
 
