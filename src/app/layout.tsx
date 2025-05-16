@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Encuentra y ofrece servicios urgentes al instante',
+  title: 'Jobli - Encuentra y ofrece servicios urgentes al instante',
   description:
     'Una forma rápida y sencilla de conectar a personas que necesitan ayuda ahora con quienes están listos para trabajar.'
 }
