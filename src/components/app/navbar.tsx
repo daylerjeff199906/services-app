@@ -36,8 +36,8 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <span className="text-2xl font-bold text-orange-600">
-              ChambeaYa
+            <span className="text-2xl font-extrabold text-orange-600">
+              Jobli
             </span>
           </Link>
 

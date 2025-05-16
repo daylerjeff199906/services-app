@@ -13,6 +13,8 @@ import { CategoryCard } from '@/components/app/category-card'
 import { TestimonialCard } from '@/components/app/testimonial-card'
 import { LocationSuggestion } from '@/components/app/location-suggestion'
 
+import bannerImage from '@/assets/images/banner/banner-image.webp'
+
 export default function HomePage() {
   return (
     <>
@@ -22,12 +24,12 @@ export default function HomePage() {
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-10 md:mb-0">
-                <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                  Conectamos talento con oportunidades
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4">
+                  Encuetra y ofrece servicios temporales
                 </h1>
                 <p className="text-lg md:text-xl mb-8">
-                  ChambeaYa es la plataforma que conecta a personas que
-                  necesitan servicios temporales con trabajadores independientes
+                  Jobli es la plataforma que conecta a personas que necesitan
+                  servicios temporales con trabajadores independientes
                   calificados.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -54,7 +56,7 @@ export default function HomePage() {
               </div>
               <div className="md:w-1/2">
                 <img
-                  src="https://img.freepik.com/foto-gratis/tablero-mdf-corte-carpintero-dentro-taller_23-2149451072.jpg?t=st=1744528243~exp=1744531843~hmac=5ca82519d0b26f0a398ae9d77dfe0682e874db2efe44634c9260992f9ce56fc2&w=1380"
+                  src={bannerImage.src}
                   alt="Personas trabajando juntas"
                   className="rounded-lg shadow-lg object-cover w-full h-[400px]"
                 />
@@ -132,7 +134,7 @@ export default function HomePage() {
                 name="María Fernández"
                 role="Trabajadora independiente"
                 image="https://randomuser.me/api/portraits/women/44.jpg"
-                text="Gracias a ChambeaYa he podido conseguir trabajos flexibles que se adaptan a mi horario universitario."
+                text="Gracias a Jobli he podido conseguir trabajos flexibles que se adaptan a mi horario universitario."
               />
               <TestimonialCard
                 name="Roberto Sánchez"
@@ -150,7 +152,7 @@ export default function HomePage() {
             <h2 className="text-3xl font-bold mb-6">¿Listo para comenzar?</h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
               Únete a miles de personas que ya están conectando con
-              oportunidades en ChambeaYa
+              oportunidades en Jobli
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button

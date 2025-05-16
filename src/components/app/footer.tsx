@@ -9,9 +9,7 @@ export default function Footer() {
           {/* Logo and Description */}
           <div className="md:col-span-1">
             <Link href="/" className="inline-block mb-4">
-              <span className="text-2xl font-bold text-orange-500">
-                ChambeaYa
-              </span>
+              <span className="text-2xl font-bold text-orange-500">Jobli</span>
             </Link>
             <p className="text-gray-400 mb-4">
               Conectamos personas que necesitan servicios temporales con
@@ -160,7 +158,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
           <p>
-            &copy; {new Date().getFullYear()} ChambeaYa. Todos los derechos
+            &copy; {new Date().getFullYear()} Jobli. Todos los derechos
             reservados.
           </p>
         </div>

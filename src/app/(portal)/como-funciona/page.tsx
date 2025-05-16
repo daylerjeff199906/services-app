@@ -20,7 +20,7 @@ export default function ComoFuncionaPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-orange-500 to-orange-600 text-white py-16">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold mb-4">¿Cómo funciona ChambeaYa?</h1>
+          <h1 className="text-4xl font-bold mb-4">¿Cómo funciona Jobli?</h1>
           <p className="text-xl max-w-3xl mx-auto">
             Conectamos a personas que necesitan servicios temporales con
             trabajadores independientes de manera rápida, segura y eficiente.
@@ -46,7 +46,7 @@ export default function ComoFuncionaPage() {
                     ¿Necesitas contratar un servicio?
                   </h2>
                   <p className="text-gray-600 max-w-2xl mx-auto">
-                    Publicar un trabajo en ChambeaYa es fácil y rápido. Sigue
+                    Publicar un trabajo en Jobli es fácil y rápido. Sigue
                     estos pasos para encontrar al trabajador ideal para tu
                     necesidad.
                   </p>
@@ -160,7 +160,7 @@ export default function ComoFuncionaPage() {
                   <p className="text-gray-600 max-w-2xl mx-auto">
                     Encuentra trabajos que se ajusten a tus habilidades y
                     disponibilidad. Sigue estos pasos para comenzar a trabajar
-                    con ChambeaYa.
+                    con Jobli.
                   </p>
                 </div>
 
@@ -271,7 +271,7 @@ export default function ComoFuncionaPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Preguntas frecuentes</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Resolvemos tus dudas sobre cómo funciona ChambeaYa
+              Resolvemos tus dudas sobre cómo funciona Jobli
             </p>
           </div>
 
@@ -282,7 +282,7 @@ export default function ComoFuncionaPage() {
                   ¿Cuánto cuesta publicar un trabajo?
                 </h3>
                 <p className="text-gray-600">
-                  Publicar un trabajo en ChambeaYa es completamente gratuito.
+                  Publicar un trabajo en Jobli es completamente gratuito.
                   Solo pagas una comisión del 10% cuando encuentras al
                   trabajador ideal y se completa el servicio.
                 </p>
@@ -308,7 +308,7 @@ export default function ComoFuncionaPage() {
                   ¿Cómo funciona el sistema de pagos?
                 </h3>
                 <p className="text-gray-600">
-                  ChambeaYa ofrece un sistema de pagos seguro. El dinero se
+                  Jobli ofrece un sistema de pagos seguro. El dinero se
                   retiene hasta que el trabajo se completa satisfactoriamente,
                   protegiendo tanto al contratante como al trabajador.
                 </p>
@@ -334,7 +334,7 @@ export default function ComoFuncionaPage() {
                   ¿Cómo me comunico con el trabajador o contratante?
                 </h3>
                 <p className="text-gray-600">
-                  ChambeaYa cuenta con un sistema de mensajería integrado que te
+                  Jobli cuenta con un sistema de mensajería integrado que te
                   permite comunicarte de forma segura sin compartir datos
                   personales hasta que ambas partes estén de acuerdo.
                 </p>
@@ -349,7 +349,7 @@ export default function ComoFuncionaPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">
-              Beneficios de usar ChambeaYa
+              Beneficios de usar Jobli
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Descubre por qué miles de personas confían en nuestra plataforma
@@ -402,7 +402,7 @@ export default function ComoFuncionaPage() {
           <h2 className="text-3xl font-bold mb-6">¿Listo para comenzar?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Únete a miles de personas que ya están conectando con oportunidades
-            en ChambeaYa
+            en Jobli
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button

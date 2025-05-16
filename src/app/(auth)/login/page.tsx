@@ -41,7 +41,7 @@ export default function LoginPage() {
                 Iniciar sesión
               </h1>
               <p className="text-gray-600 text-center mb-8">
-                Bienvenido de nuevo a ChambeaYa
+                Bienvenido de nuevo a Jobli
               </p>
 
               <Card>

@@ -14,3 +14,10 @@ const eslintConfig = [
 ];
 
 export default eslintConfig;
+
+eslintConfig.push({
+  rules: {
+    "@next/next/no-img-element": "off",
+    // "no-console": ["error", { "allow": ["warn", "error", "log"] }]
+  }
+});
