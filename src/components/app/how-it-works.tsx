@@ -33,12 +33,6 @@ export function HowItWorks() {
           <div className="bg-orange-100 p-4 rounded-full mb-4">{step.icon}</div>
           <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
           <p className="text-gray-600">{step.description}</p>
-
-          {index < steps.length - 1 && (
-            <div className="hidden lg:block absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-1/2">
-              <div className="w-8 h-0.5 bg-gray-300"></div>
-            </div>
-          )}
         </div>
       ))}
     </div>
